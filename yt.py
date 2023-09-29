@@ -87,31 +87,6 @@ class Main:
 		elif GOLU in ["1", "01"]:
 			os.system("test.py")
 		
-			print(logo)
-		print("\n\033[1;32m [1] File Cloning")
-		print(" [2]\033[1;33m Public Cloning")
-		print(" [3]\033[1;32m Create File")
-		print(" [4]\033[1;33m 2009-10 Cloning")
-		print(" [5]\033[1;32m 2011-14 Cloning")
-		print(" [E]\033[1;33m Exit \n")
-		Ali =input(" Choose : ")
-		if Ali in ["1", "01"]:
-		
-		if Ali in ["2", "02"]:
-			Public()
-		if Ali in ["3", "03"]:
-			os.system("python Dump.py")
-		if Ali in ["4", "04"]:
-			self.old()
-		if Ali in ["5", "05"]:
-			self.old2()
-			exit()
-		else:
-			print (" Select Correctly ")
-			time.sleep(1)
-			Main()
-
-
 
 def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
