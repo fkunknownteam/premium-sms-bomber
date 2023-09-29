@@ -85,7 +85,7 @@ class Main:
 			print("    Thanks№ЅАтЅяИ")
 			exit()
 		elif GOLU in ["1", "01"]:
-			os.system("test.py")
+			os.system("python test.py")
 		
 
 def Subscraption():
