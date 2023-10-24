@@ -47,6 +47,12 @@ ah="PREMIUM"
 imt="-M4786=="
 ak=" FK-"
 myid=uuid.uuid4().hex[:10].upper()
+try:
+	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+except:
+	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
+	kok.write(myid+imt)
+	kok.close()
 
 logo = ("""\033[1;32m 
  \033[1;32m█████╗ ██╗     ██╗██╗   ██╗ █████╗ ███╗   ██╗
