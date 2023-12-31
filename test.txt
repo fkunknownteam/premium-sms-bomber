@@ -1,2 +1,7 @@
-
-http://device-001-site1.atempurl.com/Custom-sms/halfcustom.php?number=01&msg=hi
+{
+  "api": "http://device-001-site1.atempurl.com/Custom-sms/halfcustom.php",
+  "params": {
+    "number": "number",
+    "msg": "message"
+  }
+}
