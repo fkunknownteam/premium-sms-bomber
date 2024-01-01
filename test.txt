@@ -1,5 +1,5 @@
 {
-  "api": "http://device-001-site1.atempurl.com/Custom-sms/halfcustom.php",
+  "api": "http://device-001-site1.atempurl.com/Custom-sms/halfcustom.php?",
   "params": {
     "number": "number",
     "msg": "message"
